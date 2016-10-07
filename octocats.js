@@ -5,13 +5,12 @@ function Octocat(n,a){
   this.arms = a;
 
   this.slap=function(){
-    var a=8;
-    for(var a=0;a<=this.arms;a++){
+    for(var a=0;a<this.arms;a++){
       console.log("SLAP")
     }
   };
 }
 //Write your 3 new octocat objects below here.
-  var fuzzy = new Octocat("Fuzzy",6);
-  var james = new Octocat("James",7);
-  var goofy = new Octocat("Goofy",8);
+  var fluffy = new Octocat("Fluffy",6);
+  var fuzzy = new Octocat("Fuzzy",7);
+  var furry = new Octocat("Furry",8);
